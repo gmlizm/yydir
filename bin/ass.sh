@@ -26,9 +26,9 @@ case $2 in
 	;;
     *)
 	echo "ERROR: second param only accept [syscenter|base|engine|medall|gy|dp|report|upload]!"
-        echo -e "\tfor syscenter use : \n\t\t> server.sh start sys"
-        echo -e "\tfor knowledge use : \n\t\t#> server.sh start base"
-        echo -e "\tfor med       use : \n\t\t#> server.sh start [all|gy|dp|report|upload]"
+        echo -e "\tfor syscenter use : \n\t\t#> $0 start sys"
+        echo -e "\tfor knowledge use : \n\t\t#> $0 start base"
+        echo -e "\tfor med       use : \n\t\t#> $0 start [all|gy|dp|report|upload]"
         exit 0
 	;;
 esac
